@@ -8,10 +8,11 @@ homepage = "https://github.com/Alpyg/leptos-lucide-icons"
 repository = "https://github.com/Alpyg/leptos-lucide-icons"
 
 [dependencies]
-leptos = { version = "0.6.12", features = ["csr", "nightly"] }
+leptos = "0.6.12"
 
 [build-dependencies]
 heck = "0.5.0"
 proc-macro2 = "1.0.86"
 quote = "1.0.36"
+regex = "1.10.5"
 walkdir = "2.5.0"
